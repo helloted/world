@@ -307,7 +307,7 @@ web_camouflage() {
     rm -rf /home/wwwroot
     mkdir -p /home/wwwroot
     cd /home/wwwroot || exit
-    git clone https://github.com/wulabing/3DCEList.git
+    wget -N --no-check-certificate -q -O index.html "https://raw.githubusercontent.com/helloted/world/master/index.html"
     judge "web 站点伪装"
 }
 v2ray_install() {
