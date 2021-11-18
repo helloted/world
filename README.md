@@ -1,4 +1,7 @@
+手动参考Handle.md
+
 Vmess+websocket+TLS+Nginx+Website
+
 ```
 wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/helloted/world/master/install.sh" && chmod +x install.sh && bash install.sh
 ```
